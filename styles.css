@@ -2,9 +2,16 @@ body {
     font-family: "Lato", sans-serif;
     background: #000;
     margin: 50px 0px;
-    cursor: url('assets/cursor.png') 0 0 auto;
+    cursor: url('assets/cursor.svg'), auto;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    cursor:url('./assets/typing-cursor.svg'), auto;
+}
+
+.btn:hover {
+    cursor: url('./assets/grab.svg'), auto;
+}
 
 .container-title, .container-section-one, .container-section-two, .container-footer-title  {
     height: 100vh;
